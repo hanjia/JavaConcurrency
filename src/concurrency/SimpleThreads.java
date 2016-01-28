@@ -1,5 +1,12 @@
 package concurrency;
 
+/**
+ * 
+ * https://docs.oracle.com/javase/tutorial/essential/concurrency/simple.html
+ * 
+ * @author johnidealist
+ *
+ */
 public class SimpleThreads {
 
     // Display a message, preceded by the name of the current thread
