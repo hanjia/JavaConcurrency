@@ -1,11 +1,10 @@
-package concurrency;
+package concurrency.guardedblock;
 
 public class GuardedBlocks {
 	boolean joy;
 	
 	public synchronized void guardedJoy() {
-	    // This guard only loops once for each special event, which may not
-	    // be the event we're waiting for.
+	    // This guard only loops once for each special event, which may not be the event we're waiting for.
 	    while(!joy) {
 	        try {
 	            threadMessage("Still waiting...");
