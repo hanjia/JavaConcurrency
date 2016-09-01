@@ -4,6 +4,7 @@ package concurrency.intrinsiclock;
  * 
  * Unlike synchronized methods, synchronized statements must specify the object that provides the intrinsic lock.
  * 
+ * To avoid synchronizing invocations of other objects' methods.
  * Synchronized statements are also useful for improving concurrency with fine-grained synchronization. 
  * 
  * @author hanjia

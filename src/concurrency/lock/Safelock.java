@@ -6,9 +6,14 @@ import java.util.Random;
 
 /**
  * 
- * Use Lock objects to solve deadlock problems
+ * Use Lock objects to solve deadlock problems.
  * 
- * @author hajia
+ * Lock objects work very much like the implicit locks used by synchronized code. As with implicit locks, only one thread can own a Lock object at a time. 
+ * Lock objects also support a wait/notify mechanism, through their associated Condition objects.
+ * The biggest advantage of Lock objects over implicit locks is their ability to back out of an attempt to acquire a lock.
+ * 
+ * 
+ * @author hanjia
  *
  */
 public class Safelock {  
