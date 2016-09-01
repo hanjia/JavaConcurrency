@@ -1,0 +1,6 @@
+.classpath
+.settings
+.settings/*
+bin/*
+bin
+.DS_Store
