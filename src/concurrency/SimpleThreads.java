@@ -4,7 +4,7 @@ package concurrency;
  * 
  * https://docs.oracle.com/javase/tutorial/essential/concurrency/simple.html
  * 
- * @author johnidealist
+ * @author han_jia
  *
  */
 public class SimpleThreads {
